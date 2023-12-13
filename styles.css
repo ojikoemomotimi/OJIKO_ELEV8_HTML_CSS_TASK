@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.sectionA{
+    background-image: url('photos/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    color: white;
+}
+
+.sectionA .filter{
+    width:100%;
+    backdrop-filter:brightness(40%);
+}
+.sectionA .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin-bottom: 40px;
+}
+
+.btn{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    font-weight:bold;
+}
+.sectionA .nav .btn{
+    background-color: #EB4170;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size:15px;
+}
+.sectionA .nav .btn:hover{
+    background-color: white;
+    color: #EB4170;
+    cursor: pointer;
+}
+
+.sectionA .banner{
+    width: 52vw;
+    text-align: left;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    
+}
+.sectionA .banner h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+
+}
+.sectionA .banner p {
+    margin-bottom: 25px;
+    line-height:25px;
+    font-size:17px;
+}
+.sectionA .banner .btn{
+    color: white;
+    background-color: #479EC9;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sectionA .banner .btn:hover{
+    color: #479EC9;
+    background-color: white;
+    cursor: pointer;
+}
+
+.sectionB .gallery{
+    width: 75%;
+    margin: 0 auto;
+
+}
+.sectionB .gallery h2{
+    text-align: center;
+    margin-top: 20px;font-size: 40px;
+}
+.sectionB .gallery .btn-container{
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.sectionB .gallery .btn-container .btn{
+    margin-right:20px;
+    font-size: 15px;
+    color: #479EC9;
+    background-color: white;
+    border: 1px solid #479EC9;
+}
+
+.sectionB .gallery .btn-container .btn:hover{
+    background-color: #479EC9;
+    color: white;
+    cursor: pointer;
+}
+.sectionB .gallery .btn-container #selected{
+    background-color: #479EC9;
+    color: white;
+    border: 1px solid #479EC9;
+}
+.sectionB .gallery .image-container{
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.sectionB .gallery .image-container img {
+    width: 23%;
+    margin-bottom:12px;
+}
+
